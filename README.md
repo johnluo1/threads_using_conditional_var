@@ -3,7 +3,7 @@
 Simple multiple thread producer/consumer in python 
 - To run: python main.py
 
-- producer an an item at most one per second. Consumer consumes as fast as possible
-- using conditonal variable. You cannot check lock status. Also you can only notify() while holding the lock
--- acquire(), release(), notify() or notify\_all()
+- Producer produces an item at most one per second. Consumer consumes as fast as possible
+- Using conditonal variable. You cannot check lock status. Also you can only notify() while holding the lock
+- acquire(), release(), notify() or notify\_all()
 
